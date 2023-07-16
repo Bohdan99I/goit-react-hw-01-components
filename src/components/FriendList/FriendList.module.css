@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 200px;
   margin: 0 auto;
-  gap: 10px;
+  gap: 10px;  
 }
 .status {
   display: block;

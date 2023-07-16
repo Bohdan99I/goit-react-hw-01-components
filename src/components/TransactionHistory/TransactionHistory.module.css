@@ -1,0 +1,32 @@
+.transaction {
+  width: 800px;
+  padding: 20px;
+  background-color: rgb(134, 153, 161);
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px #10a040;
+}
+.th {
+  background: rgb(1, 83, 117);
+  color: rgb(19, 192, 192);
+  font-weight: 400;
+  font-size: 22px;
+  height: 40px;
+  padding: 7px;
+  border: 1px solid white;
+}
+.tr,
+.td {
+  width: 350px;
+  height: 35px;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: #b42323;
+}
+tr:nth-child(even) {
+  background-color: #ace7ee80;
+}
